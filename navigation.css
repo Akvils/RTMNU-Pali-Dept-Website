@@ -1,0 +1,159 @@
+/* Navigation STARTS here*/
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC&subset=latin,latin-ext);
+ul#css3menu1,ul#css3menu1 ul{
+	width: 90%;
+	margin:0;
+	list-style:none;
+	padding:0;
+	background-color:none;
+	font:20px Alegreya Sans SC,Arial,Helvetica,sans-serif; /* "Open Sans", Arial,Helvetica,sans-serif */
+}
+	
+ul#css3menu1 ul{
+	display:none;
+	position:absolute;
+	left:0;
+	top:100%;
+	background-color:#467aa7;
+	padding: 3px 3px 3px 3px; /*padding for the light blue hover*/
+}
+
+ul#css3menu1 li:hover>*{
+	display:block;
+}
+
+ul#css3menu1 li{
+	position:relative;
+	display:block;
+	white-space:nowrap;
+	font-size:0;
+	float:left;
+}
+
+ul#css3menu1 li:hover{
+	z-index:1;
+}
+
+ul#css3menu1 ul ul{
+	position:absolute;
+	left:100%;
+	top:0;
+}
+
+ul#css3menu1{
+	font-size:0;
+	width:99%;
+	z-index:999;
+	position:relative;
+	display:inline-block;
+	zoom:1;
+	padding:1px 0.1% 1px 0%;
+	margin:0 0.45%;
+	*display:inline;
+	*padding-right:1.22%;
+}
+
+* html ul#css3menu1 li a{
+	display:inline-block;
+}
+
+ul#css3menu1>li{
+	margin:0 0% 0 1%;
+	width:13%;
+}
+
+ul#css3menu1 li.toplast{
+	width:15%;
+}
+
+body:first-of-type ul#css3menu1{
+	display:inline-table;
+	border-spacing:1px 0;
+}
+
+body:first-of-type ul#css3menu1>li{
+	display:table-cell;
+	float:none;
+}
+
+ul#css3menu1 ul>li{
+	margin:1px 0 0;
+}
+
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;
+}
+
+ul#css3menu1 a{
+	display:block;
+	vertical-align:middle;
+	text-align:center;
+	text-decoration:none;
+	font:18px Alegreya Sans SC,Arial,Helvetica,sans-serif;  /* "Open Sans", Arial,Helvetica,sans-serif */
+	color:#ffffff;
+	cursor:pointer;
+	padding:10px;
+	background-color:#467aa7;
+}
+
+ul#css3menu1 ul li{
+	float:none;
+	margin:9px 0 0;
+}
+
+ul#css3menu1 ul a{
+	text-align:left;
+	padding:8px 0 0 0;
+	background-color:#467aa7;
+	background-image:none;
+	border-width:1px 0 0 0; /* Line between elements of sub-menu*/
+	border-style:solid;
+	border-color:#cccccc;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	font:16px Alegreya Sans SC,Arial,Helvetica,sans-serif; /* "Open Sans", Arial,Helvetica,sans-serif */
+	color:#ffffff;
+	text-decoration:none;
+}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	background-color:#80b0da;
+	border-style:none;
+	color:#303030;
+	text-decoration:none;
+}
+
+ul#css3menu1 span{
+	display:block;
+	overflow:visible;
+}
+
+ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li a.pressed{
+	background-color:#80b0da;
+	color:#303030;
+	text-decoration:none;
+}
+
+ul#css3menu1 _>li>a{
+	padding:0;
+}
+
+ul#css3menu1 li.subfirst>a{
+	border-width:0;
+	border-style:none;
+	padding:0;
+}
+
+ul#css3menu1 li.subfirst:hover>a,ul#css3menu1 li.subfirst a.pressed{
+	border-style:none;
+}
+
+@-moz-document url-prefix(){body:first-of-type ul#css3menu1{display:inline-block}
+
+ body:first-of-type 
+
+ ul#css3menu1>li{display:block;float:left !important;}}
+
+ /* Navigation ENDS here*/
+ 

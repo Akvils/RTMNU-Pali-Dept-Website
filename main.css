@@ -1,0 +1,196 @@
+/* Styling for website of Pali and prakrit department, nagput, by Akvil */
+
+#container {
+	width: 85%;
+	margin: 20px auto;
+	padding: 1px 0;
+	background: #ffffff;
+	color: #303030;
+	/*border:1px solid #a0a0a0;*/
+	font-family: Alegreya Sans SC,Arial,Helvetica,sans-serif; /* "Open Sans", Arial,Helvetica,sans-serif */
+	position: relative;
+	border-style: none;
+	border-color: #c3e6e5;
+}
+
+
+/* Header: blue box on the top*/
+#header {
+	height:20%;
+	width:100%;
+	margin:0 1px 1px 1px;
+	background:#467aa7;
+	color:#ffffff;
+}
+
+#header h1 {
+	padding:35px 0 0 20px;
+	font-size:2.4em;
+	background-color:inherit;
+	color:#ffffff;
+	font-weight:normal;
+	text-align: center;
+	z-index: 10;
+}
+/* Header ends*/
+
+/* headlines styling*/ 
+h2 {
+	color: #467aa7;
+	margin:5px;
+	font-weight:normal;
+	z-index: 50;
+}
+h3 {
+	color: #467aa7;
+	margin:5px;
+	font-weight:normal;
+	z-index: 50;
+}
+/* headline styling ends*/ 
+
+/* Sub navigation of page: That blue horizontal box; */
+.subnav { height:3em;
+	line-height:2.2em;
+	width:100%;
+	margin:0 1px;
+	background:#578bb8;
+	color:#ffffff;
+	text-align: center;
+}
+
+.subnav ul {
+	float:center;
+	list-style-type:none;
+	border-right:1px solid #ffffff;
+	white-space: nowrap;
+	text-decoration:none;
+}
+
+.subnav h2 {
+	margin:5px;
+	font-size:2em;
+	background-color:inherit;
+	color:#ffffff;
+	font-weight:normal;
+	text-align: center;
+	z-index: 30;
+	float: left;
+	list-style-type: none;
+	white-space:nowrap;
+}
+
+.subnav li {
+	float:right;
+	list-style-type:none;
+	color:#ffffff;
+	margin: 3px 3px 9px 3px;
+	text-decoration: none;
+}
+
+.subnav li a {
+	float:right;
+	list-style-type:none;
+	color:#ffffff;
+	white-space:nowrap;
+	border-left:1px solid #ffffff;
+	margin: 3px 3px 9px 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.subnav .selected, .subnav a:hover{
+	background:#80b0da;
+	color:#303030;
+	text-decoration:none;display: inline;
+	margin: 3px 3px 9px 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+/* Sub navigation of page */
+
+/* Table styles c3e6e5*/
+th, td {
+padding: 7px 10px 10px 10px;
+}
+
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 100%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid #999;
+text-align: left;
+background: #ccccff;
+}
+
+tr:hover {
+background-color: #ccccff;
+}
+
+/* Styling for paragraphs*/
+#container div p {
+	margin: auto;
+	padding: auto;
+	float: none;
+	clear: none;
+	font-family: Alegreya Sans SC,Arial,Helvetica,sans-serif; /* "Open Sans", Arial,Helvetica,sans-serif */
+	font-style: normal;
+	line-height: normal;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+/* list Styling */
+
+ul, ol, dl {
+	padding: 0 0 0 50px;
+	margin: 0;
+}
+
+h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 35px;
+	padding-left: 15px;
+	font-weight:normal;
+}
+
+a img {
+	border:none;
+}
+
+a:link {
+	color:#414958;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+.container .content iframe {
+	float="center";
+	padding: 10px 0;
+}
+
+.content address {
+	height: auto;
+	width: auto;
+	padding-left: 15px;
+}
+
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; 
+	font-size: 100%;
+}
+
+.content {
+	padding: 10px 0;
+}
